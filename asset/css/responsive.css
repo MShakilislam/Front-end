@@ -1,0 +1,196 @@
+
+@media all and (max-width:990px) {
+
+	.header_text h1 {
+	    font-size: 33px;
+	}
+	/*heading text second*/
+	.heading_text h1 {
+	    font-size: 40px;
+	}
+	/*header thard*/
+	.header_text_1 h1 {
+	    font-size: 32px;
+	}
+	/*single_service*/
+	.single_service{
+		margin: 10px 0;
+	}
+	/*protfolio_items*/
+	.protfolio_items{
+		margin: 20px 0;
+	}
+}
+
+@media all and (max-width:767px) {
+	/*menu icon*/
+	.menu_icon{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+		top: 70px;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		z-index: 9;
+		background: green;
+		background: rgba(0, 0, 0, .9);
+		padding: 20px;
+	}
+	.menu{
+		position: relative;
+	}
+	.menu ul li a{
+		padding: 5px 0;
+	}
+	.menu ul li a:after{
+		display: none;
+	}
+	/*header text*/
+	.header_text h1 {
+	    font-size: 29px;
+	}
+	.single_member {
+	    margin: 10px 0;
+	}
+	/*poeple area*/
+	.client_heading h1 {
+	    font-size: 34px;
+	}
+
+}
+
+@media all and (min-width:767px) {
+
+	.menu ul{
+		display: flex !important;
+	}
+}
+
+
+@media all and (max-width:575px) {
+	.menu_icon{
+		position: absolute;
+		top: -40px;
+		right: 0;
+	}
+	/*header text*/
+	.header_text h1 {
+	    font-size: 25px;
+	}
+	/*header text second*/
+	.heading_text h1 {
+	    font-size: 30px;
+	}
+	.heading_text p {
+	    font-size: 13px;
+	}
+	/*header thard*/
+	.header_text_1 h1 {
+	    font-size: 20px;
+	}
+	.header_text_1 p {
+	    font-size: 14px;
+	}
+	/*counter area*/
+	.counter_heading h1 {
+	    font-size: 32px;
+	}
+	.counter_heading p {
+	    width: 100%;
+	}
+	.single_fun{
+		margin: 30px 0;
+	}
+	/*protfolio area*/
+	.footer_heading h1 {
+	    font-size: 35px;
+	}
+	.footer_heading p {
+	    width: 100%;
+	    padding: 19px 0;
+	    line-height: 22px;
+	}
+	/*poeple area*/
+	.client_heading h1 {
+	    font-size: 20px;
+	}
+
+}
+
+
+@media all and (min-width:575px) {
+	.menu_icon{
+		top: 0;
+	}
+}
+
+
+@media all and (max-width:388px) {
+	.header_text h1 {
+	    font-size: 25px;
+	}
+	/*btn style*/
+	.btn_style {
+	    font-size: 13px;
+	}
+	/*header text second*/
+	.heading_text h1 {
+	    font-size: 18px;
+	}
+	/*header thard*/
+	.header_text_1 h1 {
+	    font-size: 18px;
+	}
+	.service_area_text h3 {
+	    font-size: 18px;
+	}
+	.service_area_text p {
+	    line-height: 18px;
+	}
+	/*counter*/
+	.counter_heading h1 {
+	    font-size: 22px;
+	}
+	.counter_heading p {
+	    line-height: 22px;
+	}
+	/*protfolio area*/
+	.footer_heading h1 {
+	    font-size: 25px;
+	}
+	.protfolio_menu ul li a {
+	    font-size: 13px;
+	    padding: 10px 15px;
+	    margin: 0 2px;
+	}
+	.protfolio_text h4 {
+	    font-size: 16px;
+	}
+	/*people area*/
+	.client_heading p {
+	    font-size: 16px;
+	    padding-bottom: 25px;
+	}
+	.client_area_icone i {
+	    font-size: 50px;
+	}
+	.client_area_right p {
+	    font-size: 20px;
+	}
+	.client_area_right h4 {
+	    font-size: 18px;
+	}
+	.client_area_right a {
+	    font-size: 13px;
+	}
+	/*subscribe*/
+	.subscribe h1{
+		font-size: 25px;
+	}
+	.subscribe p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
